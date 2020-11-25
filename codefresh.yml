@@ -20,7 +20,7 @@ steps:
     dockerfile: Dockerfile
     disable_push: true
   MyUnitTests:
-    title: Running Unit tests
+    title: Running Unit test
     image: '${{MyAppDockerImage}}'
     stage: test 
     commands: 
